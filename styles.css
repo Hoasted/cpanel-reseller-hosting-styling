@@ -1,0 +1,230 @@
+/* --------NAVBAR ACHTERGROND KLEUREN-------- */
+/* Pas in onderstaande css je background en border color kleuren aan. */
+
+.navbar-cpanel {
+  background: #282c34;
+  height: 50px!important;
+  box-shadow: 0 4px 0 rgba(0,0,0,0.05), 0 -4px 0 rgba(0,0,0,0.05) inset;
+  overflow: visible;
+  border-color: #282c34;
+}
+
+/* --------FOOTER LINKS ACHTERGROND KLEUREN-------- */
+/* Pas in onderstaande css de kleur aan. */
+
+footer .navbar-nav>li>a {
+    color: #1F0BB2!important;
+}
+
+/* --------JE EIGEN PROMO AFBEELDING ACTIVEREN-------- */
+/* Actveer onderstaand CSS om je eigen promo afbeelding weer te geven. */
+
+
+#customsection {
+display: inherit!important;
+}
+
+
+
+/* --------JE LOGO GROOTTE EN DETAILS-------- */
+/* Pas met onderstaande de hoogte en positie van je logo aan. */
+
+img.navbar-brand-logo[src*="logo.svg"] {
+  height: 25px;
+  margin-top: -6px;
+}
+
+.navbar.navbar-inverse.navbar-cpanel.navbar-fixed-top {
+  min-height: 40px;
+}
+
+.navbar .navbar-header{
+  margin-top: 2px;
+}
+
+.minimal #topnav {
+  top: 0px;
+}
+
+.navbar-preferences{
+  margin-top: -19px;
+}
+
+.navbar-preferences {
+  margin-top: -3px;
+}
+
+.navbar-subnav {
+  margin-left: -50px;
+  margin-top: -10px;
+}
+
+.navbar-nav {
+  margin-left: 11px;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+  color: white;
+}
+
+html[dir="ltr"] #include-global-header {
+  margin-top: 22px;
+}
+
+#content {
+  margin-top: 25px;
+}
+
+#cpanel_body {
+  margin-top: 10px;
+  max-width: none;
+}
+
+#cpanel_body #mailFrame{
+  margin-top: 36px;
+}
+
+html[dir="ltr"] #sidebar {
+  top: 100px;
+}
+
+#quickLinks .container {
+  margin-left: 40px;
+}
+
+/* BACKGROUND COLOR */
+body {
+  background-color: #f9f9fa;
+}
+
+#lnkHeaderHome {
+  margin-left: 0px;
+}
+
+img.navbar-brand-logo[src*="logo.svg"]{
+  height: 20px;
+  argin-top: -7px;
+}
+
+.progress-bar-disabled {
+  background-color: #F5F5F5;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+
+.widget-heading {
+  border: 0px solid #f1f1f1;
+  background-color: #fafafa;
+  color: #676767;
+}
+.panel-widget {
+  box-shadow: 0 0 0px rgba(0,0,0,0.2);
+  border: 2px solid #f1f1f1
+}
+.container {
+  margin-right: auto;
+  margin-left: 0px;
+  padding-left: 5px;
+  padding-right: 15px;
+}
+html[dir="ltr"] #include-global-header {
+  margin-left: 0px;
+}
+.navbar-subnav {
+  background: #1F0BB2;
+  border-radius: 0;
+  border-bottom: 0px solid #1F0BB2;
+  color: white;
+}
+.navbar-cpanel {
+  background-color: #1F0BB2;
+  border-color: #1F0BB2;
+  box-shadow: 0 0 0px rgba(0,0,0,0.5);
+}
+.cpanel_body {
+  background-color: #fff;
+}
+html[dir="ltr"] #content {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+#sidebar {
+  display: none;
+}
+.navbar-default {
+  border: #1F0BB2;
+  margin-top: -15px;
+  width: 120%; 
+}
+.navbar {
+  min-height: 45px;
+}
+ul.nav.navbar-nav a {
+  color: #fff;
+}
+ul.nav.navbar-nav a:hover {
+  color: #e4e0e0;
+  text-decoration: none;
+}
+button#btnSideBarToggle {
+  display: none;
+}
+
+#btnUserPref, a.link-buttons {
+  border-left: 0px solid transparent;
+  border-right: 0px solid rgba(255,255,255,0.05);
+}
+.widget-heading {
+  text-transform: none;
+}
+html[dir="ltr"] .navbar-brand{
+  margin-left: 15px;
+}
+
+.cpanel_body {
+max-width: 2000px;
+}
+
+
+
+
+/* MOBILE EDITS */
+@media screen and (max-width: 768px) {
+  img#imgLogo {
+    margin-top: -22px;
+    margin-left: 5px;
+  }
+  .navbar-preferences.form-inline {
+    margin-top: 10px;
+    margin-right: 15px;
+  }
+  html[dir="ltr"] #content {
+    padding-left: 15px;
+    margin-top: 57px;
+  }
+  html[dir="ltr"] .navbar-brand {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .navbar-nav {
+    padding-left: 30px;
+  }
+  #content {
+    margin-top: 55px!important;
+  }
+  .navbar .navbar-header {
+    margin-top: 11px!important;
+  }
+  .cp-nav-toggle {
+    margin-top: 8px;
+    margin-left: 4px;
+  }
+
+  #lnkHeaderNotifications {
+    display: none;
+  }
+  .navbar-cpanel {
+    background-image: none;
+  }
+}
