@@ -1,5 +1,4 @@
 /* --------JE LOGO GROOTTE EN DETAILS-------- */
-/* Pas met onderstaande de hoogte en positie van je logo aan. */
 
 img.navbar-brand-logo[src*="logo.svg"] {
   height: 25px;
@@ -7,7 +6,6 @@ img.navbar-brand-logo[src*="logo.svg"] {
 }
 
 /* --------NAVBAR ACHTERGROND KLEUREN-------- */
-/* Pas in onderstaande css je background en border color kleuren aan. */
 
 .navbar-cpanel {
   background: #282c34;
@@ -18,18 +16,19 @@ img.navbar-brand-logo[src*="logo.svg"] {
 }
 
 /* --------FOOTER LINKS ACHTERGROND KLEUREN-------- */
-/* Pas in onderstaande css de kleur aan. */
 
 footer .navbar-nav>li>a {
     color: #1F0BB2!important;
 }
 
 /* --------ACHTERGROND KLEUR BODY-------- */
+
 body {
   background-color: #f9f9fa;
 }
 
 /* --------ACHTERGROND KLEUR WIDGET HEADERS-------- */
+
 .widget-heading {
   border: 0px solid #f1f1f1;
   background-color: #fafafa;
@@ -41,14 +40,13 @@ body {
 }
 
 /* --------JE EIGEN PROMO AFBEELDING ACTIVEREN-------- */
-/* Actveer onderstaand CSS om je eigen promo afbeelding weer te geven. */
 
 #customsection {
 display: inherit!important;
 }
 
+
 /* --------OVERIGE CSS-------- */
-/* Overige custom branding CSS. */
 
 .navbar.navbar-inverse.navbar-cpanel.navbar-fixed-top {
   min-height: 40px;
