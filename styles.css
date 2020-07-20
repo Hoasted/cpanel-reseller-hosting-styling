@@ -1,3 +1,11 @@
+/* --------JE LOGO GROOTTE EN DETAILS-------- */
+/* Pas met onderstaande de hoogte en positie van je logo aan. */
+
+img.navbar-brand-logo[src*="logo.svg"] {
+  height: 25px;
+  margin-top: -6px;
+}
+
 /* --------NAVBAR ACHTERGROND KLEUREN-------- */
 /* Pas in onderstaande css je background en border color kleuren aan. */
 
@@ -16,23 +24,31 @@ footer .navbar-nav>li>a {
     color: #1F0BB2!important;
 }
 
+/* --------ACHTERGROND KLEUR BODY-------- */
+body {
+  background-color: #f9f9fa;
+}
+
+/* --------ACHTERGROND KLEUR WIDGET HEADERS-------- */
+.widget-heading {
+  border: 0px solid #f1f1f1;
+  background-color: #fafafa;
+  color: #676767;
+}
+.panel-widget {
+  box-shadow: 0 0 0px rgba(0,0,0,0.2);
+  border: 2px solid #f1f1f1
+}
+
 /* --------JE EIGEN PROMO AFBEELDING ACTIVEREN-------- */
 /* Actveer onderstaand CSS om je eigen promo afbeelding weer te geven. */
-
 
 #customsection {
 display: inherit!important;
 }
 
-
-
-/* --------JE LOGO GROOTTE EN DETAILS-------- */
-/* Pas met onderstaande de hoogte en positie van je logo aan. */
-
-img.navbar-brand-logo[src*="logo.svg"] {
-  height: 25px;
-  margin-top: -6px;
-}
+/* --------OVERIGE CSS-------- */
+/* Overige custom branding CSS. */
 
 .navbar.navbar-inverse.navbar-cpanel.navbar-fixed-top {
   min-height: 40px;
@@ -93,18 +109,8 @@ html[dir="ltr"] #sidebar {
   margin-left: 40px;
 }
 
-/* BACKGROUND COLOR */
-body {
-  background-color: #f9f9fa;
-}
-
 #lnkHeaderHome {
   margin-left: 0px;
-}
-
-img.navbar-brand-logo[src*="logo.svg"]{
-  height: 20px;
-  argin-top: -7px;
 }
 
 .progress-bar-disabled {
@@ -112,15 +118,6 @@ img.navbar-brand-logo[src*="logo.svg"]{
   box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
 }
 
-.widget-heading {
-  border: 0px solid #f1f1f1;
-  background-color: #fafafa;
-  color: #676767;
-}
-.panel-widget {
-  box-shadow: 0 0 0px rgba(0,0,0,0.2);
-  border: 2px solid #f1f1f1
-}
 .container {
   margin-right: auto;
   margin-left: 0px;
@@ -185,8 +182,6 @@ html[dir="ltr"] .navbar-brand{
 .cpanel_body {
 max-width: 2000px;
 }
-
-
 
 
 /* MOBILE EDITS */
