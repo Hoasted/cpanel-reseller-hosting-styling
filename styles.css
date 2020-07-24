@@ -1,3 +1,4 @@
+/* --------HOASTED RESELLER CUSTOM STYLESHEET-------- */
 /* --------JE LOGO GROOTTE EN DETAILS-------- */
 
 img.navbar-brand-logo[src*="logo.svg"] {
@@ -8,17 +9,36 @@ img.navbar-brand-logo[src*="logo.svg"] {
 /* --------NAVBAR ACHTERGROND KLEUREN-------- */
 
 .navbar-cpanel {
-  background: #282c34;
+  background: #0A0924;
   height: 50px!important;
   box-shadow: 0 4px 0 rgba(0,0,0,0.05), 0 -4px 0 rgba(0,0,0,0.05) inset;
   overflow: visible;
-  border-color: #282c34;
+  border-color: #0A0924;
 }
+
+.navbar-subnav {
+  background: #0A0924;
+  border-radius: 0;
+  border-bottom: 0px solid #0A0924;
+  color: white;
+}
+.navbar-cpanel {
+  background-color: #0A0924;
+  border-color: #0A0924;
+  box-shadow: 0 0 0px rgba(0,0,0,0.5);
+}
+
+.navbar-default {
+  border: #1F0BB2;
+  margin-top: -15px;
+  width: 120%; 
+}
+
 
 /* --------FOOTER LINKS ACHTERGROND KLEUREN-------- */
 
 footer .navbar-nav>li>a {
-    color: #1F0BB2!important;
+    color: #0A0924!important;
 }
 
 /* --------ACHTERGROND KLEUR BODY-------- */
@@ -125,17 +145,7 @@ html[dir="ltr"] #sidebar {
 html[dir="ltr"] #include-global-header {
   margin-left: 0px;
 }
-.navbar-subnav {
-  background: #1F0BB2;
-  border-radius: 0;
-  border-bottom: 0px solid #1F0BB2;
-  color: white;
-}
-.navbar-cpanel {
-  background-color: #1F0BB2;
-  border-color: #1F0BB2;
-  box-shadow: 0 0 0px rgba(0,0,0,0.5);
-}
+
 .cpanel_body {
   background-color: #fff;
 }
@@ -147,11 +157,7 @@ html[dir="ltr"] #content {
 #sidebar {
   display: none;
 }
-.navbar-default {
-  border: #1F0BB2;
-  margin-top: -15px;
-  width: 120%; 
-}
+
 .navbar {
   min-height: 45px;
 }
